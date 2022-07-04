@@ -1,0 +1,9 @@
+#!/bin/bash/
+if [ "$1" = "grafsky" ]
+then
+	echo "гит сейчас в позиции $1"
+	git config --global user.name "ZikGrafsky" && git config --global user.email silentzzephyr@gmail.com
+else
+	echo "гит сейчас в позиции $1"
+	git config --global user.name "hportife" && git config --global user.email hportife@student.21-school.ru
+fi
