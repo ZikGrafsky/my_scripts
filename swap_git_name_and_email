@@ -1,4 +1,8 @@
 #!/bin/bash/
+if [ "$1" = "list" ]
+then
+	git config --list
+fi
 if [ "$1" = "grafsky" ]
 then
 	echo "гит сейчас в позиции $1"
